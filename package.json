@@ -1,0 +1,31 @@
+{
+  "name": "analyzingtwittertool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "types": "./dist/AnalyzingTwitterTool.d.ts",
+  "bin": {
+    "att": "./bin/att"
+  },
+  "scripts": {
+    "build": "tsc -p src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HirokiMiyaoka/AnalyzingTwitterTool.git"
+  },
+  "author": "Hiroki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HirokiMiyaoka/AnalyzingTwitterTool/issues"
+  },
+  "homepage": "https://github.com/HirokiMiyaoka/AnalyzingTwitterTool#readme",
+  "devDependencies": {
+    "@types/node": "^12.7.8",
+    "@types/puppeteer": "^1.19.1"
+  },
+  "dependencies": {
+    "puppeteer": "^1.20.0"
+  }
+}
